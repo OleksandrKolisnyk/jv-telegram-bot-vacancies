@@ -23,7 +23,7 @@ public class VacanciesBot extends TelegramLongPollingBot {
     @Autowired
     private VacancyService vacancyService;
     public VacanciesBot() {
-        super("5977266060:AAHURrehGRRMjm3Jjuy-0Xaycrc6DE4SPos");
+        super("");
     }
 
     private final String[] vacancyLevels = {"Junior", "Middle", "Senior"};
